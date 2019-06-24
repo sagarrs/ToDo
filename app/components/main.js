@@ -21,7 +21,7 @@ export default class Main extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.headerText}>- NOTER -</Text>
+          <Text style={styles.headerText}>To Do App</Text>
         </View>
 
         <ScrollView style={styles.scrollContainer}>
@@ -29,7 +29,7 @@ export default class Main extends Component {
         </ScrollView>
 
         <View style={styles.footer}>
-          <TextInput onChangeText={(noteText) => this.setState({noteText})} value={this.state.noteText} style={styles.textInput} placeholder='>note' placeholderTextColor='white' underlineColorAndroid='transparent'>
+          <TextInput onChangeText={(noteText) => this.setState({noteText})} value={this.state.noteText} style={styles.textInput} placeholder='>Add your ToDo List' placeholderTextColor='white' underlineColorAndroid='transparent'>
           </TextInput>
         </View>
 
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     flex:1,
   },
   header: {
-    backgroundColor: '#E91E63',
+    backgroundColor: '#1886f4',
     alignItems: 'center',
     justifyContent:'center',
     borderBottomWidth: 10,
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
       zIndex: 11,
       right: 20,
       bottom: 90,
-      backgroundColor: '#E91E63',
+      backgroundColor: '#1886f4',
       width: 70,
       height: 70,
       borderRadius: 35,
