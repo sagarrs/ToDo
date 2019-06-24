@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   noteText: {
       paddingLeft: 20,
       borderLeftWidth: 10,
-      borderLeftColor: '#E91E63'
+      borderLeftColor: '#1886f4'
   },
   noteDelete: {
       position: 'absolute',
